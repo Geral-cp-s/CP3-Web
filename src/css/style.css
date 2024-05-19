@@ -73,3 +73,19 @@ footer{
     text-align: center;
     font-family: sans-serif;
 }
+
+/*Config. Contato*/
+#mapa{
+    padding-top: 50px;
+    float: right;
+}
+form{
+    padding-left: 3%;
+    width: 40%;
+
+}
+#contato{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 250px;
+}
