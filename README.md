@@ -1,8 +1,8 @@
 <p align='center'>
   <img loading="lazy" src = "https://github.com/Geral-cp-s/CP3-Web/assets/110639916/44475925-7461-47f5-b6e4-62a75de3fe17"/>
 </p>
-<h1 align="center">UrbanWalk</h1>
-
+<h1 align="center">A melhor loja de calçados</h1>
+<p align="center"><strong>LOJA FEITA EXCLUSIVAMENTE PARA A CP3</strong></p>
 # Índice
 * [Sobre](#sobre)
 * [Produtos](#produtos)
@@ -20,7 +20,7 @@
 <p><strong>Atendimento Personalizado:</strong> Um dos diferenciais da UrbanWalk é o atendimento ao cliente. A equipe da loja é composta por profissionais apaixonados por tênis, que possuem profundo conhecimento sobre os produtos e estão sempre prontos para oferecer consultoria especializada. Esse atendimento personalizado ajuda os clientes a fazerem escolhas informadas e a encontrar o tênis que melhor se adapta ao seu estilo de vida e preferências pessoais.</p><br>
 
 <h2 id="site">💻Nosso site:</h2>
-
+https://geral-cp-s.github.io/CP3-Web/
 
 <h2 id="Autores">Autores</h2>
 
