@@ -25,12 +25,14 @@
         <form id="form-login">
             <Fieldset id="info">
                 <legend><strong>Realize o login</strong></legend><br>
-                <label for="c-user">Usuario:</label>
-                <input type="user" name="user" id="c-user" required
-                placeholder="Digite seu email"><br><br>
-                <label for="c-senha">Senha</label>
-                <input type="password" name="senha" id="c-senha" required
-                placeholder="Digite sua senha"><br><br>
+                <p class="um">
+                    Usuario:
+                    <input type="text" placeholder="Digite seu usuario" id="usuario">
+                </p>
+                <p class="um">
+                    Senha:
+                    <input type="password" placeholder="Digite a senha" id="senha">
+                </p>
                 <button id="btn-login" onclick="validar()">Login</button>
             </Fieldset>
         </form>

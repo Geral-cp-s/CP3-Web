@@ -22,8 +22,82 @@
         </nav>
     </header>
     <main>
-
-
+        <div class="container">
+            <fieldset id="h1-quiz">
+                <legend>Quiz sobre tênis</legend>
+                <button onclick="startQuiz()">Iniciar Quiz</button>
+            </fieldset>
+        </div>
+    
+        <script>
+            function startQuiz() {
+                var questions = [
+                    {
+                        question: "Qual é a marca de tênis mais vendida no mundo?",
+                        options: ["a) Nike", "b) Adidas", "c) Puma", "d) Reebok"],
+                        answer: "a"
+                    },
+                    {
+                        question: "Qual é o material mais comum usado na fabricação de sapatos de couro?",
+                        options: ["a) Couro sintético", "b) Couro genuíno", "c) Plástico", "d) Borracha"],
+                        answer: "b"
+                    },
+                    {
+                        question: "Qual destes é um tipo de sapato formal masculino?",
+                        options: ["a) Sapatilha", "b) Mocassim", "c) Oxford", "d) Chinelo"],
+                        answer: "c"
+                    },
+                    {
+                        question: "Qual é a função principal dos tênis de corrida?",
+                        options: ["a) Estilo", "b) Conforto", "c) Velocidade", "d) Suporte e amortecimento"],
+                        answer: "d"
+                    },
+                    {
+                        question: "Qual calçado é tradicionalmente usado por bailarinas?",
+                        options: ["a) Botas", "b) Sapatilhas", "c) Sandálias", "d) Tênis"],
+                        answer: "b"
+                    },
+                    {
+                        question: "Qual é a característica principal das sandálias Havaianas?",
+                        options: ["a) São feitas de couro", "b) São sandálias de salto alto", "c) São sandálias de borracha", "d) São usadas em eventos formais"],
+                        answer: "c"
+                    },
+                    {
+                        question: "O que é um 'sneakerhead'?",
+                        options: ["a) Um fabricante de tênis", "b) Um colecionador de tênis", "c) Um designer de moda", "d) Um atleta profissional"],
+                        answer: "b"
+                    },
+                    {
+                        question: "Qual destes calçados é tipicamente usado em caminhadas e trilhas?",
+                        options: ["a) Chinelos", "b) Sapatilhas", "c) Botas de caminhada", "d) Sandálias"],
+                        answer: "c"
+                    },
+                    {
+                        question: "Qual destes é um tipo de calçado tradicionalmente usado na Índia?",
+                        options: ["a) Mocassim", "b) Jutti", "c) Oxford", "d) Tamanco"],
+                        answer: "b"
+                    },
+                    {
+                        question: "Qual é o nome do calçado que tem uma sola macia e geralmente é usado dentro de casa?",
+                        options: ["a) Tênis", "b) Sandália", "c) Chinelo", "d) Pantufa"],
+                        answer: "d"
+                    }
+                ];
+    
+                var score = 0;
+    
+                for (var i = 0; i < questions.length; i++) {
+                    var question = questions[i];
+                    var userAnswer = prompt(question.question + "\n" + question.options.join("\n"));
+                    
+                    if (userAnswer.toLowerCase() === question.answer) {
+                        score++;
+                    }
+                }
+    
+                alert("Você acertou " + score + " de " + questions.length + " perguntas.");
+            }
+        </script>
     </main>
     <footer>
         <p>&copy; 2024 UrbanWalk. Direitos reservados</p>

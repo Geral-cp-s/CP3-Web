@@ -121,3 +121,25 @@ form{
     margin-left: 25%;
     margin-bottom: 20px;
 }
+
+/*Config. Quiz*/
+#h1-quiz{
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 13%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 40%;
+    height: 80px;
+}
+#h1-quiz legend{
+    margin-left: 30%;
+}
+.container button{
+    width: 150px;
+    height: 50px;
+    margin-left: 35%;
+    margin-bottom: 220px;
+}
