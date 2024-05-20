@@ -1,5 +1,4 @@
 /*VARIÁVEIS*/
-
 :root{
     --body-font:'Arial', 'sans-serif';
     --color1: #001a00;                    
@@ -35,6 +34,32 @@ nav ul li a{
     padding-left: 3%;
     color: var(--color2);
     font-weight: 700;
+}
+.btn-pages{
+    background: var(--color4);
+    border: 1px solid var(--color3);
+    padding: 0.4rem 3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.btn-pages:hover{
+    background: var(--color2);
+    color:var(--color1);
+    border-color:  var(--color4);
+    border-bottom: 2px solid var(--color2);
+}
+.btn-pages-login{
+    background: var(--color4);
+    border: 1px solid var(--color3);
+    padding: 0.4rem 3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.btn-pages-login:hover{
+    background: var(--color1);
+    color:var(--color2);
+    border-color:  var(--color2);
+    border-bottom: 2px solid var(--color2);
 }
 .btn-cor{
     padding-left: 3%;
