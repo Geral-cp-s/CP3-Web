@@ -24,3 +24,29 @@ slideShow();
 function trocar(cor){
     document.body.style.background =cor;
 }
+
+//Modals
+document.addEventListener('DOMContentLoaded', () => {
+    const modalButtons = document.querySelectorAll('.modal-button');
+    const closeButtons = document.querySelectorAll('.close');
+
+    modalButtons.forEach(button => {
+        button.onclick = () => {
+            const modalId = button.getAttribute('data-modal');
+            document.getElementById(modalId).style.display = 'block';
+        }
+    });
+
+    closeButtons.forEach(button => {
+        button.onclick = () => {
+            const modalId = button.getAttribute('data-modal');
+            document.getElementById(modalId).style.display = 'none';
+        }
+    });
+
+    window.onclick = (event) => {
+        if (event.target.classList.contains('modal')) {
+            event.target.style.display = 'none';
+        }
+    }
+});
